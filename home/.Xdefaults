@@ -24,5 +24,3 @@ xrxvt.scrollstyle: rxvt
 urxvt.scrollBar: false
 urxvt.visualBell: true
 urxvt.saveLines: 5000
-! login shell
-urxvt*loginShell:  true
