@@ -1,0 +1,28 @@
+! ft
+!Xft.dpi: 100
+Xft.antialias: true
+Xft.rgba: rgb
+Xft.hinting: true
+Xft.hintstyle: hintslight
+
+! fcitx
+urxvt.perl-ext: xim-onthespot
+urxvt.inputMethod: fcitx
+urxvt.preeditType: OnTheSpot
+! font
+urxvt.allow_bold: false
+urxvt.letterSpace: -1
+urxvt*font: xft:MigMix 1M:size=11:antialias=true
+! colors
+urxvt*foreground: #AAA
+urxvt*background: black
+urxvt*fading: 10
+urxvt*transparent: true
+urxvt*shading: 20
+! apperarance
+xrxvt.scrollstyle: rxvt
+urxvt.scrollBar: false
+urxvt.visualBell: true
+urxvt.saveLines: 5000
+! login shell
+urxvt*loginShell:  true
