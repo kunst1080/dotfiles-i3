@@ -1,0 +1,30 @@
+clear lock
+clear control
+clear mod1
+
+! ---- Left Side ---- !
+! CapsLock -> Ctrl
+keycode 66 = Control_L
+
+! --- Left Bottom ---- !
+! Left Ctrl -> Super
+keycode 37 = Super_L
+! Windows Key -> Alt
+keycode 133 = Alt_L
+! Left Alt -> Zenkaku_Hankaku
+keycode 64 = Zenkaku_Hankaku
+
+! ---- Right Bottom ---- !
+! Right Alt -> Zenkaku_Hankaku
+keycode 108 = Zenkaku_Hankaku
+! Menu -> Alt
+keycode 135 = Alt_R
+! Right Ctrl -> Super
+keycode 105 = Super_R
+
+! ---- add ---- !
+add control = Control_L
+add mod1 = Alt_L Alt_R
+
+! ---- Mouse ---- !
+pointer = 1 2 3 4 5 6 7 8 9 10 11 12
