@@ -3,14 +3,14 @@
 clear lock
 clear control
 
-! CapsLock
-keycode 66 = Control_L
-! Left Ctrl
-keycode 37 = Super_L
-! Windows Key
+! Search Key -> Ctrl
 keycode 133 = Control_L
-! Right Ctrl
-keycode 105 = Super_R
+! Left Ctrl -> Super
+keycode 37 = Super_L
+!! Right Ctrl -> Super
+!keycode 105 = Super_R
 
+! ---- add ---- !
 add control = Control_L
+! ---- Mouse ---- !
 pointer = 1 2 3 5 4 6 7 8 9 10 11 12
