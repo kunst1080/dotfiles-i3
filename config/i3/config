@@ -170,3 +170,6 @@ exec --no-startup-id parcellite
 exec --no-startup-id volumeicon
 exec --no-startup-id feh --bg-fill ~/work/wallpaper.jpg
 exec --no-startup-id ~/bin/xremap ~/.xremap.conf
+
+# Screen Shot
+bindsym $mod+Shift+s exec ~/bin/ss.sh
