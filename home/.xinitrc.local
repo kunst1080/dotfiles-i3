@@ -2,12 +2,6 @@ has_keyboard() {
     lsusb | egrep -q 'Classic Keyboard 200|Creative Labs Wireless Keyboard/Mouse|EIZO Corp.'
 }
 
-# fcitx
-export XMODIFIERS="@im=fcitx"
-export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
-export DefaultIMModule=fcitx
-
 # X11 setting
 xrdb -merge ~/.Xdefaults
 xrandr --dpi 120
@@ -19,9 +13,9 @@ fi
 # Keyboard and Mouse wheel
 [ -h ~/.Xmodmap ] && unlink ~/.Xmodmap
 if has_keyboard ; then
-    ln -s ~/.Xmodmap.big ~/.Xmodmap
+    ln -s ~/.Xmodmap.us ~/.Xmodmap
 else
-    ln -s ~/.Xmodmap.mini ~/.Xmodmap
+    ln -s ~/.Xmodmap.jis ~/.Xmodmap
 fi
 
 exec i3

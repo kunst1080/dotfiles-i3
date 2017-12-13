@@ -1,3 +1,0 @@
-export GOPATH=$HOME/work/GO
-export PATH=$GOPATH/bin:$PATH
-export PATH=/usr/lib/go-1.9/bin:$PATH

@@ -1,3 +1,0 @@
-alias remount='sudo mount -o remount,exec /dev/mmcblk1p1'
-alias python='python3'
-alias pip='pip3'
